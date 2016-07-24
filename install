@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+source functions/update.sh
+source functions/upgrade.sh
+source functions/add-repo.sh
+source functions/install-package.sh
+source functions/clean.sh
+
+source scripts/defaults.sh
+source scripts/ppas.sh
+
+bash scripts/init.sh
+
+update
+upgrade
+clean
+
+for i in "${packagesDefault[@]}"; do install-package $i; done
+
+for i in "${ppas[@]}"; do add-repo $i; done
+
+update
+
+for i in "${packages[@]}"; do install-package $i; done
+
+bash customs/virtualbox-5.sh
+bash customs/docker.sh
+bash customs/docker-compose.sh
+bash customs/pyenv.sh
+bash customs/rbenv.sh
+bash customs/zsh.sh
+
+update
+upgrade
+clean
