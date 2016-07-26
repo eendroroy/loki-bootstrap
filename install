@@ -27,6 +27,7 @@ bash customs/docker.sh
 bash customs/docker-compose.sh
 bash customs/pyenv.sh
 bash customs/rbenv.sh
+bash customs/nenv.sh
 bash customs/zsh.sh
 
 update
