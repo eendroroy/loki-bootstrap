@@ -7,6 +7,7 @@ declare -a ppas=(\
     "nomacs/daily" \
     "neovim-ppa/unstable" \
     "synapse-core/ppa" \
+	"webupd8team/tor-browser" \
 )
 
 
@@ -19,4 +20,5 @@ declare -a packages=(\
     nomacs \
     nvim \
     synapse \
+	tor-browser \
 )
