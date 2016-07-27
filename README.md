@@ -5,16 +5,18 @@
  - docker-compose
  - pyenv
  - rbenv
+ - nenv
  - virtualbox 5
  - zsh
- 
+ - .NET core
+
 ### repositories
  - snwh/pulp
   - paper-gtk-theme
   - paper-icon-theme
   - paper-cursor-theme
  - noobslab/apps
-  - indicator-synapse 
+  - indicator-synapse
  - webupd8team/java
   - oracle-java6-installer
   - oracle-java7-installer
