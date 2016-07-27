@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 declare -a ppas=(\
+  "philip.scott/elementary-tweaks" \
   "snwh/pulp" \
   "noobslab/apps" \
   "webupd8team/java" \
@@ -12,6 +13,7 @@ declare -a ppas=(\
 
 
 declare -a packages=(\
+  elementary-tweaks \
   paper-gtk-theme paper-cursor-theme paper-icon-theme \
   indicator-synapse \
   oracle-java6-installer oracle-java7-installer oracle-java8-installer oracle-java9-installer \
