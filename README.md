@@ -1,6 +1,8 @@
 # loki-bootstrap
 
 # branches
+ - master
+  - common files
  - loki
   - for emelentary os loki (0.4)
  - xenial
