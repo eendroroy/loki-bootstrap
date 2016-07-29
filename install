@@ -30,6 +30,7 @@ bash customs/rbenv.sh
 bash customs/nenv.sh
 bash customs/zsh.sh
 bash customs/neovim.sh
+bash customs/add-getdeb-repo.sh
 
 # update, upgrade, clean
 update

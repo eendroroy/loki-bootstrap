@@ -18,6 +18,7 @@
  - neovim
 
 ### repositories
+ - getdeb
  - snwh/pulp
   - paper-gtk-theme
   - paper-icon-theme
