@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [[ -f /etc/apt/sources.list.d/getdeb.list ]]; then
   echo "########## getded pa already added. Skipping ..."
 else
