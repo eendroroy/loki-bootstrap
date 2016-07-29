@@ -1,5 +1,11 @@
 # loki-bootstrap
 
+# branches
+ - loki
+  - for emelentary os loki (0.4)
+ - xenial
+  - for ubuntu xenial (16.04)
+
 ## installations
  - docker
  - docker-compose
