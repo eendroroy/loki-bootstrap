@@ -9,6 +9,7 @@
  - virtualbox 5
  - zsh
  - .NET core
+ - neovim
 
 ### repositories
  - snwh/pulp
@@ -27,7 +28,5 @@
   - sublime-test-installer
  - nomacs/daily
   - nomacs
- - neovim-ppa/unstable
-  - nvim
  - synapse-core/ppa
   - synapse

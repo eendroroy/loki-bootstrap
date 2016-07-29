@@ -11,11 +11,6 @@ source scripts/ppas.sh
 # initialize
 bash scripts/init.sh
 
-# init update
-update
-upgrade
-clean
-
 # install packages available in default archive
 for i in "${packagesDefault[@]}"; do install-package $i; done
 
@@ -34,6 +29,7 @@ bash customs/pyenv.sh
 bash customs/rbenv.sh
 bash customs/nenv.sh
 bash customs/zsh.sh
+bash customs/neovim.sh
 
 # update, upgrade, clean
 update

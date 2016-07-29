@@ -6,7 +6,6 @@ declare -a ppas=(\
   "webupd8team/java" \
   "webupd8team/sublime-text-3" \
   "nomacs/daily" \
-  "neovim-ppa/unstable" \
   "synapse-core/ppa" \
   "webupd8team/tor-browser" \
 )
@@ -20,7 +19,6 @@ declare -a packages=(\
   oracle-java8-set-default \
   sublime-text-installer \
   nomacs \
-  nvim \
   synapse \
   tor-browser \
 )
