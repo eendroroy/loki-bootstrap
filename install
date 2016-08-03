@@ -9,7 +9,7 @@ source scripts/defaults.sh
 source scripts/ppas.sh
 
 # initialize
-bash scripts/init.sh
+source scripts/init.sh
 
 # install packages available in default archive
 for i in "${packagesDefault[@]}"; do install-package $i; done
@@ -22,15 +22,15 @@ update
 for i in "${packages[@]}"; do install-package $i; done
 
 # execute custom installation scripts
-bash customs/virtualbox-5.sh
-bash customs/docker.sh
-bash customs/docker-compose.sh
-bash customs/pyenv.sh
-bash customs/rbenv.sh
-bash customs/nenv.sh
-bash customs/zsh.sh
-bash customs/neovim.sh
-bash customs/add-getdeb-repo.sh
+source customs/virtualbox-5.sh
+source customs/docker.sh
+source customs/docker-compose.sh
+source customs/pyenv.sh
+source customs/rbenv.sh
+source customs/nenv.sh
+source customs/zsh.sh
+source customs/neovim.sh
+source customs/add-getdeb-repo.sh
 
 # update, upgrade, clean
 update
