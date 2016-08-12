@@ -7,6 +7,7 @@
  - rbenv
  - nenv
  - virtualbox 5
+ - vagrant
  - zsh
  - .NET core
  - neovim
