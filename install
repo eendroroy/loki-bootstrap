@@ -23,6 +23,7 @@ for i in "${packages[@]}"; do install-package $i; done
 
 # execute custom installation scripts
 source customs/virtualbox-5.sh
+source customs/vagrant.sh
 source customs/docker.sh
 source customs/docker-compose.sh
 source customs/pyenv.sh
