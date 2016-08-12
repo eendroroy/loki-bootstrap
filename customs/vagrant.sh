@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 latest_version=`curl https://releases.hashicorp.com/vagrant/ | grep "/vagrant/" | head -1 | tr "/" " " | awk '{print $4}'`
 if which vagrant > /dev/null; then
   installed_version=`vagrant -v | awk '{print $2}'`
