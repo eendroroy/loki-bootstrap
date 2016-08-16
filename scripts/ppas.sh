@@ -8,6 +8,10 @@ declare -a ppas=(\
   "nomacs/daily" \
   "synapse-core/ppa" \
   "webupd8team/tor-browser" \
+  "ubuntu-mozilla-security/ppa" \
+  "stefansundin/truecrypt" \
+  "nilarimogard/webupd8" \
+  "gezakovacs/ppa" \
 )
 
 
@@ -20,5 +24,8 @@ declare -a packages=(\
   sublime-text-installer \
   nomacs \
   synapse \
-  tor-browser \
+  tor-browser firefox \
+  truecrypt \
+  indicator-netspeed \
+  unetbootin \
 )
