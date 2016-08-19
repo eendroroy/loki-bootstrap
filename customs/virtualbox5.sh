@@ -9,5 +9,5 @@ else
   sudo apt-get update -y
 fi
 
-echo "########## Installing virtualbox-5.0"
-sudo apt-get install virtualbox-5.0 -y --force-yes
+echo "########## Installing virtualbox-5.1"
+sudo apt-get install virtualbox-5.1 -y --force-yes
