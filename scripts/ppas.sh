@@ -11,6 +11,7 @@ declare -a ppas=(\
   "ubuntu-mozilla-security/ppa" \
   "stefansundin/truecrypt" \
   "nilarimogard/webupd8" \
+  "fixnix/netspeed" \
   "gezakovacs/ppa" \
 )
 
@@ -26,6 +27,6 @@ declare -a packages=(\
   synapse \
   tor-browser firefox \
   truecrypt \
-  indicator-netspeed \
+  indicator-netspeed-unity \
   unetbootin \
 )
