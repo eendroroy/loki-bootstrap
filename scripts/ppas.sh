@@ -6,7 +6,7 @@ declare -a ppas=(\
   "webupd8team/java" \
   "webupd8team/sublime-text-3" \
   "nomacs/daily" \
-  "synapse-core/ppa" \
+  "synapse-core/testing" \
   "webupd8team/tor-browser" \
   "ubuntu-mozilla-security/ppa" \
   "stefansundin/truecrypt" \
