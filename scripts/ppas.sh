@@ -13,6 +13,7 @@ declare -a ppas=(\
   "nilarimogard/webupd8" \
   "fixnix/netspeed" \
   "gezakovacs/ppa" \
+  "videolan/master-daily" \
 )
 
 
@@ -29,4 +30,5 @@ declare -a packages=(\
   truecrypt \
   indicator-netspeed-unity \
   unetbootin \
+  vlc \
 )
