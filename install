@@ -32,6 +32,7 @@ source customs/nenv.sh
 source customs/zsh.sh
 source customs/neovim.sh
 source customs/add-getdeb-repo.sh
+source customs/google-apps.sh
 
 # update, upgrade, clean
 update
