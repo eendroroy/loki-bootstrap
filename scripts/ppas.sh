@@ -15,6 +15,8 @@ declare -a ppas=(\
   "gezakovacs/ppa" \
   "videolan/master-daily" \
   "webupd8team/atom" \
+  "mercurial-ppa/releases" \
+  "git-core/ppa" \
 )
 
 
@@ -33,4 +35,5 @@ declare -a packages=(\
   unetbootin \
   vlc \
   atom \
+  git gtik mercurial \
 )
