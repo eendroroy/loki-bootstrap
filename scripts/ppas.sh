@@ -14,6 +14,7 @@ declare -a ppas=(\
   "fixnix/netspeed" \
   "gezakovacs/ppa" \
   "videolan/master-daily" \
+  "webupd8team/atom" \
 )
 
 
@@ -31,4 +32,5 @@ declare -a packages=(\
   indicator-netspeed-unity \
   unetbootin \
   vlc \
+  atom \
 )
