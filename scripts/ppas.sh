@@ -14,6 +14,8 @@ declare -a ppas=(\
   "fixnix/netspeed" \
   "gezakovacs/ppa" \
   "videolan/master-daily" \
+  "mercurial-ppa/releases" \
+  "git-core/ppa" \
 )
 
 
@@ -31,4 +33,5 @@ declare -a packages=(\
   indicator-netspeed-unity \
   unetbootin \
   vlc \
+  git gtik mercurial \
 )
