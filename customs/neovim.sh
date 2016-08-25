@@ -3,7 +3,7 @@ if which nvim > /dev/null ; then
   echo "########## Neovim already installed. Skipping ..."
 else
   echo "########## Installing neovim ..."
-  sudo apt install software-properties-common
+  sudo apt-get install software-properties-common
   sudo add-apt-repository --remove -y ppa:neovim-ppa/unstable
   sudo add-apt-repository -y ppa:neovim-ppa/unstable
   sudo apt-get update
