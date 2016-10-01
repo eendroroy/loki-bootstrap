@@ -30,7 +30,7 @@ declare -a packages=(\
   nomacs \
   synapse \
   tor-browser firefox \
-  truecrypt \
+  truecrypt dmsetup \
   indicator-netspeed-unity \
   unetbootin \
   vlc \
