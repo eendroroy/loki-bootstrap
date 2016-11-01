@@ -16,6 +16,11 @@ if which docker > /dev/null ; then
   echo "########## docker already installed. Skipping ..."
 else
   echo "########## Installing docker ..."
+  echo "########## Creating docker data directory in home partition ..."
+  sudo mkdir -p /home/docker_data_dir
+  pushd /var/lib/
+  sudo ln -s /home/docker_data_dir docker
+  popd
   sudo apt-get purge lxc-docker -y --force-yes
   sudo apt-get install docker-engine -y --force-yes
   sudo groupadd docker
