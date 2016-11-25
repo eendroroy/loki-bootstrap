@@ -38,3 +38,10 @@ source customs/google-apps.sh
 update
 upgrade
 clean
+
+echo 
+echo "###############################################"
+echo "# to install nvidia drivers execute:          #"
+echo "# $ bash customs/nvidia.sh                    #"
+echo "###############################################"
+echo
