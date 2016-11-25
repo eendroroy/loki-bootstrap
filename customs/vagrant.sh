@@ -16,5 +16,4 @@ else
   wget -O /tmp/vagrant.deb "https://releases.hashicorp.com/vagrant/${latest_version}/vagrant_${latest_version}_x86_64.deb"
   sudo dpkg -i /tmp/vagrant.deb
   sudo apt-get install -f
-  vagrant plugin install vagrant-windows
 fi
