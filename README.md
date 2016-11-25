@@ -1,6 +1,13 @@
 # loki-bootstrap
 
-## installations
+## installation
+```bash
+git clone https://github.com/eendroroy/loki-bootstrap.git
+cd loki-bootstrap
+./install
+```
+
+## custom installers
  - docker
  - docker-compose
  - pyenv
