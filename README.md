@@ -12,13 +12,13 @@ cd loki-bootstrap
  - docker-compose
  - pyenv
  - rbenv
+ - goenv
  - nenv
  - virtualbox 5
  - vagrant
  - zsh
  - .NET core
  - neovim
- - goenv
 
 ### repositories
  - getdeb
