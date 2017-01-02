@@ -18,6 +18,7 @@ cd loki-bootstrap
  - zsh
  - .NET core
  - neovim
+ - goenv
 
 ### repositories
  - getdeb
