@@ -28,6 +28,7 @@ source customs/docker.sh
 source customs/docker-compose.sh
 source customs/pyenv.sh
 source customs/rbenv.sh
+source customs/exenv.sh
 source customs/goenv.sh
 source customs/nenv.sh
 source customs/zsh.sh

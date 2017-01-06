@@ -12,6 +12,7 @@ cd loki-bootstrap
  - docker-compose
  - pyenv
  - rbenv
+ - exenv
  - goenv
  - nenv
  - virtualbox 5
