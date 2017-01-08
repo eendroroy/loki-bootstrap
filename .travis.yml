@@ -1,2 +1,3 @@
 language: bash
-script: install
+sudo: required
+script: ./install
