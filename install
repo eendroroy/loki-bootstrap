@@ -1,15 +1,4 @@
 #!/usr/bin/env bash
-
-UPGRADE="0"
-while getopts ":u" opt; do
-  case $opt in
-    u) UPGRADE="1"
-    ;;
-    \?) echo "Invalid option -$OPTARG" >&2
-    ;;
-  esac
-done
-
 source functions/update.sh
 source functions/upgrade.sh
 source functions/add-repo.sh
@@ -49,9 +38,7 @@ source customs/google-apps.sh
 
 # update, upgrade, clean
 update
-if [[ "${UPGRADE}" = "1" ]]; then
-  upgrade
-fi
+upgrade
 clean
 
 echo 
