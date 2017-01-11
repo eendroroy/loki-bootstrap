@@ -1,5 +1,7 @@
 # loki-bootstrap
 
+[![Analytics](https://ga-beacon.appspot.com/UA-90216724-1/loki-bootstrap/readme)](https://github.com/eendroroy/loki-bootstrap)
+
 ## installation
 ```bash
 git clone https://github.com/eendroroy/loki-bootstrap.git
