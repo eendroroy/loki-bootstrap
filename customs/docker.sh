@@ -7,7 +7,6 @@ else
   echo "########## adding docker ppa ..."
   sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A91
   echo "deb http://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
-  # sudo cp sources.list/docker.list.xenial /etc/apt/sources.list.d/docker.list
   sudo apt-get update -y --force-yes
 fi
 
@@ -21,6 +20,8 @@ else
   pushd /var/lib/
   sudo ln -s /home/docker_data_dir docker
   popd
+  sudo apt-get install apt-transport-https ca-certificates
+  sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
   sudo apt-get purge lxc-docker -y --force-yes
   sudo apt-get install docker-engine -y --force-yes
   sudo groupadd docker
