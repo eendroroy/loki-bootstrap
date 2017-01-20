@@ -21,7 +21,7 @@ declare -a ppas=(\
 declare -a packages=(\
   paper-gtk-theme paper-cursor-theme paper-icon-theme \
   indicator-synapse \
-  oracle-java6-installer oracle-java7-installer oracle-java8-installer oracle-java9-installer \
+  oracle-java7-installer oracle-java8-installer \
   oracle-java8-set-default \
   sublime-text-installer \
   nomacs \
