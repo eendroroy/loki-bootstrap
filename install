@@ -21,6 +21,15 @@ update
 # install packages from 3rd party archives
 for i in "${packages[@]}"; do install-package $i; done
 
+if [[ `lsb_release -cs` = "loki" ]]; then
+  # add 3rd party loki archives
+  for i in "${loki_ppas[@]}"; do add-repo $i; done
+  # update
+  update
+  # install packages from 3rd party loki archives
+  for i in "${loki_packages[@]}"; do install-package $i; done
+fi
+
 # execute custom installation scripts
 source customs/virtualbox-5.sh
 source customs/vagrant.sh
