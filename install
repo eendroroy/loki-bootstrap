@@ -39,7 +39,7 @@ source customs/pyenv.sh
 source customs/rbenv.sh
 source customs/exenv.sh
 source customs/goenv.sh
-source customs/nenv.sh
+source customs/nodenv.sh
 source customs/zsh.sh
 source customs/neovim.sh
 source customs/add-getdeb-repo.sh
