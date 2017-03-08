@@ -11,5 +11,7 @@ else
   mkdir -p ~/.rbenv/plugins
   pushd ~/.rbenv/plugins
   git clone git://github.com/rbenv/ruby-build.git
+  git clone https://github.com/rbenv/rbenv-default-gems.git
   popd
+  echo "bundler" | tee ~/.rbenv/default-gems
 fi
