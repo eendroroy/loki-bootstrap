@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-source functions/update.sh
-source functions/upgrade.sh
-source functions/add-repo.sh
-source functions/install-package.sh
-source functions/clean.sh
-
-source scripts/defaults.sh
-source scripts/ppas.sh
+source helpers/update.sh
+source helpers/upgrade.sh
+source helpers/add-repo.sh
+source helpers/install-package.sh
+source helpers/clean.sh
+source helpers/defaults.sh
+source helpers/ppas.sh
 
 # initialize
 source scripts/init.sh
@@ -31,19 +30,19 @@ if [[ `lsb_release -cs` = "loki" ]]; then
 fi
 
 # execute custom installation scripts
-source customs/virtualbox-5.sh
-source customs/vagrant.sh
-source customs/docker.sh
-source customs/docker-compose.sh
-source customs/pyenv.sh
-source customs/rbenv.sh
-source customs/exenv.sh
-source customs/goenv.sh
-source customs/nodenv.sh
-source customs/zsh.sh
-source customs/neovim.sh
-source customs/add-getdeb-repo.sh
-source customs/google-apps.sh
+source recipes/virtualbox-5.sh
+source recipes/vagrant.sh
+source recipes/docker.sh
+source recipes/docker-compose.sh
+source recipes/pyenv.sh
+source recipes/rbenv.sh
+source recipes/exenv.sh
+source recipes/goenv.sh
+source recipes/nodenv.sh
+source recipes/zsh.sh
+source recipes/neovim.sh
+source recipes/add-getdeb-repo.sh
+source recipes/google-apps.sh
 
 # update, upgrade, clean
 update
