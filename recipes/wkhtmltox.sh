@@ -12,6 +12,8 @@ for rel in $releases; do
 done
 echo "Installing latest release => ${latest} <="
 
+sudo apt-get install -y libfontconfig libxrender1
+
 wget https://downloads.wkhtmltopdf.org/${latest_series}${latest}/wkhtmltox-${latest}_linux-generic-amd64.tar.xz
 tar xf wkhtmltox-${latest}_linux-generic-amd64.tar.xz
 sudo mv wkhtmltox /usr/local/share/
